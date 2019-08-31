@@ -3,10 +3,7 @@
 Miscellaneous Routines.
 """
 import struct
-try:
-    from sys import maxint as INF
-except:
-    INF== 2 ** (struct.Struct('i').size * 8 - 1) - 1
+INF== 2 ** (struct.Struct('i').size * 8 - 1) - 1
 
 
 ##  PNG Predictor

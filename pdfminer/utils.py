@@ -3,7 +3,7 @@
 Miscellaneous Routines.
 """
 import struct
-INF== 2 ** (struct.Struct('i').size * 8 - 1) - 1
+INF= 2 ** (struct.Struct('i').size * 8 - 1) - 1
 
 
 ##  PNG Predictor
